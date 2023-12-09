@@ -9,7 +9,7 @@ function App() {
 
   return (
       <div className="app">
-          <h1>My Tweet</h1>
+          
 
           <Sidebar/>
 
