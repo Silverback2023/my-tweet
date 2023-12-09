@@ -15,7 +15,7 @@ const Sidebar = props => {
   return (
     <div className="sidebar">
         <TwitterIcon className="sidebar_TwitterIcon" />
-
+        
         <SidebarOptions active Icon={HomeIcon} text="Home" />
         <SidebarOptions Icon={SearchIcon} text="Search" />
         <SidebarOptions Icon={MailOutlineIcon} text="Messages" />

@@ -1,5 +1,6 @@
 :root {
-    --twitter-color: #50b7f5
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
 }
 
 .sidebar_TwitterIcon{
@@ -7,5 +8,37 @@
     font-size: 30px; 
     margin-left: 20px;
     margin-bottom: 20px;
+    transition: margin-left 0.3s;
+}
 
+.sidebar_TwitterIcon:hover {
+    margin-left: 30px;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3 1;
+    border-right: 1px solid var(--twitter-background);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    background-color: white;
+
+}
+
+.sidebar:hover {
+    flex: 0.4; 
+}
+
+.sidebar_option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
 }
